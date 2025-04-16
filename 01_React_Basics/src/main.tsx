@@ -9,6 +9,8 @@ import Objects from './useState/objects.tsx'
 import NestedObject from './useState/NestedObject.tsx'
 import Props from './props/Props.tsx'
 import Gallery from './props/01_extractProfile/Gallery.tsx'
+import Colorchange from './useState/01_colorChanger/Colorchange.tsx'
+import PasswordGenerate from './passwordGenrator/PasswordGenerate.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -19,7 +21,9 @@ createRoot(document.getElementById('root')!).render(
     {/* <Objects/> */}
     {/* <NestedObject/> */}
     {/* <Props/> */}
-    <Gallery/>
+    {/* <Gallery/> */}
+    {/* <Colorchange/> */}
+    <PasswordGenerate/>
    
   </StrictMode>,
 )
