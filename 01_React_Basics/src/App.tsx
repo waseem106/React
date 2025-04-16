@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
   const [name, setName] = useState("");
@@ -51,6 +52,7 @@ function App() {
           </>
         )}
       </form>
+      <Counter/>
     </>
   );
 }
