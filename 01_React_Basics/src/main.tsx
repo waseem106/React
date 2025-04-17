@@ -11,6 +11,10 @@ import Props from './props/Props.tsx'
 import Gallery from './props/01_extractProfile/Gallery.tsx'
 import Colorchange from './useState/01_colorChanger/Colorchange.tsx'
 import PasswordGenerate from './passwordGenrator/PasswordGenerate.tsx'
+import Simple from './useRef/Simple.tsx'
+import SecondRef from './useRef/SecondRef.tsx'
+import UseEffectSimple from './useEffect/useEffectSimple.tsx'
+import LayoutVsEffectDemo from './useEffect/EffectvsLayoutEffect.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -23,7 +27,11 @@ createRoot(document.getElementById('root')!).render(
     {/* <Props/> */}
     {/* <Gallery/> */}
     {/* <Colorchange/> */}
-    <PasswordGenerate/>
+    {/* <PasswordGenerate/> */}
+    {/* <Simple/> */}
+    {/* <SecondRef/> */}
+    {/* <UseEffectSimple/> */}
+    <LayoutVsEffectDemo/>
    
   </StrictMode>,
 )
