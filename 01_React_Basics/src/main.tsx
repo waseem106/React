@@ -15,6 +15,7 @@ import Simple from './useRef/Simple.tsx'
 import SecondRef from './useRef/SecondRef.tsx'
 import UseEffectSimple from './useEffect/useEffectSimple.tsx'
 import LayoutVsEffectDemo from './useEffect/EffectvsLayoutEffect.tsx'
+import CurrencyConverter from './currencyConverter/CurrencyConverter.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -31,7 +32,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <Simple/> */}
     {/* <SecondRef/> */}
     {/* <UseEffectSimple/> */}
-    <LayoutVsEffectDemo/>
+    {/* <LayoutVsEffectDemo/> */}
+    <CurrencyConverter/>
    
   </StrictMode>,
 )
